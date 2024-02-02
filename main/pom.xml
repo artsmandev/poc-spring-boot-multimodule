@@ -16,7 +16,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>dev.artsman.poc</groupId>
-			<artifactId>spring-boot-multimodule-person</artifactId>
+			<artifactId>spring-boot-multimodule-customer</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
