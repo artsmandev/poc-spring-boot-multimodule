@@ -9,9 +9,9 @@
 		<artifactId>spring-boot-multimodule</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-boot-multimodule-person</artifactId>
+	<artifactId>spring-boot-multimodule-customer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Person module</name>
+	<name>Customer module</name>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

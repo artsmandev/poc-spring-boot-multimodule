@@ -1,4 +1,4 @@
-package dev.artsman.poc.person;
+package dev.artsman.poc.customer;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("/people")
+@RequestMapping("/customers")
 @RestController
-class PersonController {
+class CustomerController {
 	@GetMapping
-	ResponseEntity<List<Person>> findAll() {
-		var bruce = new Person("Bruce", LocalDate.of(1970, Month.APRIL, 7));
-		var persons = List.of(bruce);
-		return ResponseEntity.ok(persons);
+	ResponseEntity<List<Customer>> findAll() {
+		var bruce = new Customer("Bruce", LocalDate.of(1970, Month.APRIL, 7));
+		var customers = List.of(bruce);
+		return ResponseEntity.ok(customers);
 	}
 }
